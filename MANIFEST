@@ -1,0 +1,16 @@
+Build.PL
+Changes
+LICENSE
+META.json
+README.md
+cpanfile
+lib/Algorithm/SetSimilarity.pm
+lib/Algorithm/SetSimilarity/Jaccard.pm
+lib/Algorithm/SetSimilarity/Join/Datum.pm
+lib/Algorithm/SetSimilarity/Join/MPJoin.pm
+t/00_compile.t
+t/01_jaccard.t
+t/02_join_datum.t
+t/03_join_mpjoin.t
+META.yml
+MANIFEST
