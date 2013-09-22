@@ -1,6 +1,10 @@
 Revision history for Perl extension Algorithm-SetSimilarity
 
+0.0.0_02 2013-09-22T08:48:30Z
+
+    - Delete the meanless lines.
+    - Add estimate_data_type() to estimate a data type of a set or the sets.
+
 0.0.0_01 2013-09-19T07:25:36Z
 
     - original version
-

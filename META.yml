@@ -25,9 +25,10 @@ no_index:
     - examples
     - author
 requires:
+  Scalar::Util: 1.32
   perl: 5.008005
 resources:
   bugtracker: https://github.com/overlast/p5-Algorithm-SetSimilarity/issues
   homepage: https://github.com/overlast/p5-Algorithm-SetSimilarity
   repository: git://github.com/overlast/p5-Algorithm-SetSimilarity.git
-version: 0.0.0_01
+version: 0.0.0_02
