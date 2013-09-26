@@ -4,7 +4,7 @@ use 5.008005;
 use strict;
 use warnings;
 
-our $VERSION = "0.0.0_02";
+our $VERSION = "0.0.0_03";
 
 use Scalar::Util;
 
@@ -14,15 +14,6 @@ sub new {
     $hash{"is_sorted"} = $param->{is_sorted} if (exists $param->{is_sorted});
     $hash{"data_type"} = $param->{data_type} if (exists $param->{data_type});
     bless \%hash, $class;
-}
-
-sub get_sets {
-    my ($self, $sets, $threshold) = @_;
-    unless ( $self->{is_sorted} ) {
-        @{$sets} = sort {$#{$sets->[$b]} <=> $#{$sets->[$a]}} @$sets;
-    }
-    my @result_sets = Algorithm::SetSimilarity::Join::MPJoin->join($sets, $threshold);
-    return \@result_sets;
 }
 
 sub estimate_data_type {

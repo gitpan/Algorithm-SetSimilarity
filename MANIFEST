@@ -8,9 +8,13 @@ lib/Algorithm/SetSimilarity.pm
 lib/Algorithm/SetSimilarity/Jaccard.pm
 lib/Algorithm/SetSimilarity/Join/Datum.pm
 lib/Algorithm/SetSimilarity/Join/MPJoin.pm
+lib/Algorithm/SetSimilarity/Join/WMPJoin.pm
+lib/Algorithm/SetSimilarity/WeightedJaccard.pm
 t/00_compile.t
 t/01_jaccard.t
 t/02_join_datum.t
 t/03_join_mpjoin.t
+t/04_weighted_jaccard.t
+t/05_join_wmpjoin.t
 META.yml
 MANIFEST
